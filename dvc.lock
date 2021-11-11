@@ -4,22 +4,22 @@ stages:
     cmd: python train.py
     deps:
     - path: data
-      md5: b8f4d5a78e55e88906d5f4aeaf43802e.dir
-      size: 41149064
-      nfiles: 1800
+      md5: 21060888834f7220846d1c6f6c04e649.dir
+      size: 64128504
+      nfiles: 2800
     - path: train.py
       md5: 4b1ef62426df32ac6ea7d1a01f6eaf8f
       size: 4586
     outs:
     - path: bottleneck_features_train.npy
-      md5: 6732cc2c01339a9b30d68287cfb414e5
-      size: 32768128
+      md5: 5ac70fc3c7a7a1080381ead94ddf491e
+      size: 65536128
     - path: bottleneck_features_validation.npy
       md5: c694a5bbb3f173d799285695531f2166
       size: 26214528
     - path: metrics.json
-      md5: 92d8d067a181e5776d3aa0d4f46cd563
+      md5: 2be674aeb92718f49062a1fe2829eaa0
       size: 2028
     - path: model.h5
-      md5: 95c7dabd2755985ec771ed5d2b5010b5
+      md5: da9bc7efac20886d3601c5ddc1bcf920
       size: 8406328
